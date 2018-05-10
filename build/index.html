@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Firebase with JS</title>
+</head>
+<body>
+	<table>
+		<tr><td style="text-align: right"> Name : </td><td> <input id="name" name="val" type="text"/></td></tr>
+		<tr><td style="text-align: right">Company : </td><td> <input id="company" name="val" type="text"/></td></tr>
+		<tr><td style="text-align: right">Email : </td><td> <input id="email" name="val" type="text"/></td></tr>
+		<tr><td></td><td> <button id="postData">Save</button> 
+							<button id="getData">Show</button>
+							<button id="putData">Update</button>
+							<button id="deleteData">Delete</button>
+							<button id="clearData">Clear</button> </td></tr>
+	</table>
+
+	<br>
+	<b>Details :</b>
+	<br><br>	
+	<div id="dispData"></div>
+
+	<script src="https://www.gstatic.com/firebasejs/5.0.1/firebase.js"></script>
+    <script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>
