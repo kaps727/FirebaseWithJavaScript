@@ -117,6 +117,9 @@ const getValue = (id) => {
 }
 
 const setValue = (id,_val) => {
+	if(id=="dispData"){
+		document.getElementById("dispData").innerHTML = "";
+	}
 	return document.getElementById(id).value=_val;
 }
 
